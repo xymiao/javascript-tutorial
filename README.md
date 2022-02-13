@@ -34,7 +34,7 @@
 
 **第十五章：浏览器中的 JavaScript BOM  和 DOM**   
 
-**第十六章：JavaScript 工具和扩展**   
+**第十六章：JavaScript 工具和扩展**    
 
 **第十七章：JavaScript 框架 Vue.js **   
 
