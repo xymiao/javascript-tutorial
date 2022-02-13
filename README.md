@@ -36,11 +36,11 @@
 
 **第十六章：JavaScript 工具和扩展**    
 
-**第十七章：JavaScript 框架 Vue.js **   
+**第十七章：JavaScript 框架 Vue.js**   
 
-**第十八章：JavaScript 框架 React **   
+**第十八章：JavaScript 框架 React**   
 
-**第十九章：JavaScript 框架 Angular **   
+**第十九章：JavaScript 框架 Angular**   
 
 
 
