@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>script 元素的使用，动态的加载 script 元素</title>
+    <link rel="preload" href="./dom-async-false.js" as="script">
+    <script>
+        let script = document.createElement('script');
+        script.src = './dom.js';
+        document.head.appendChild(script);
+    </script>
+
+    <script>
+        let script2 = document.createElement('script');
+        script2.src = './dom-async-false.js';
+        script2.async = false;
+        document.head.appendChild(script2);
+    </script>
+</head>
+
+<body>
+    <p>请查看控制台</p>
+</body>
+
+</html>

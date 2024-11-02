@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>script 元素的使用 defer 的使用</title>
+    <script defer type="text/javascript" src="./defer.js"></script>
+    <script>
+        test(); // 这里就会提示 test is not defined 因为外部的 defer.js 还没有加载完成
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
