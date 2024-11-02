@@ -4,7 +4,7 @@
 
 **第一章：JavaScript 简介**  
 
-**第二章：JavaScript 词法结构**  
+**第二章：JavaScript 基础**  
 
 **第三章：类型、值和变量**  
 
