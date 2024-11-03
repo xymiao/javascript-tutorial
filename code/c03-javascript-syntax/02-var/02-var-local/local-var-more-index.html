@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>var 变量的使用, 变量的提升</title>
+</head>
+<body>
+    <script>
+        function sayHi() {
+            var message = "hi, 变量提升了!";
+            var message = "多次声明同一个变量，不会报错";
+            console.log(message); // 多次声明同一个变量，不会报错
+        }
+        sayHi();
+    
+    </script>
+</body>
+</html>

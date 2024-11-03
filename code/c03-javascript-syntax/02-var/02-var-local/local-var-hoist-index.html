@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>var 变量的使用, 变量的提升</title>
+</head>
+<body>
+    <script>
+        function sayHi() {
+            console.log(message);  // undefined
+            var message = "hi, 变量提升了!";
+        }
+        sayHi();
+        // 等价代码相当于
+        // function sayHi() {
+        //     var message;
+        //     console.log(message);  // undefined
+        //     message = "hi, 变量提升了!";
+        // }
+        // sayHi();
+    </script>
+</body>
+</html>

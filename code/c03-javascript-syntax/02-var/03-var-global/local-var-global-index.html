@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>var 变量的使用, 局部没有指定声明类型的变量，就变成了全局变量</title>
+</head>
+<body>
+    <script>
+        function sayHi() {
+            message = "hi, 没有定义 var 声明的变量, 作用域就变成了全局变量";
+            console.log(message);
+        }
+        sayHi();
+        console.log(message);
+    </script>
+</body>
+</html>
