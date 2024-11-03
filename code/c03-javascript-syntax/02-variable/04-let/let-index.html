@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>let 的定义</title>
+</head>
+
+<body>
+    <script>
+       
+        if (true) {
+            var title = "jsr";
+            console.log(title); // jsr
+        }
+        console.log(title); // jsr
+
+        if (true) {
+            let nickName = "苗子说全栈";
+            console.log(nickName); // 苗子说全栈
+        }
+        console.log(nickName); // 会提示没有定义。ReferenceError : nickName is not defined
+    </script>
+</body>
+
+</html>

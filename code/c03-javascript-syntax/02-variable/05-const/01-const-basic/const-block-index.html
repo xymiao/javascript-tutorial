@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>const 的定义</title>
+</head>
+
+<body>
+    <script>
+        // const声明的作用域也是块
+        const nickName = "nick";
+        if(true){
+            const nickName = "Nick";
+        }
+        console.log(nickName);    // nick
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>const 的定义</title>
+</head>
+
+<body>
+    <script>
+        const nickName = "nick";
+        nickName = "Nick"; // 报错 Uncaught TypeError TypeError: Assignment to constant variable.
+
+        const nickName = "nick"; // 报错 Uncaught SyntaxError: Identifier 'nickName' has already been declared
+    </script>
+</body>
+
+</html>
